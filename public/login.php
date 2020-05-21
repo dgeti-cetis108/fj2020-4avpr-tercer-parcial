@@ -48,7 +48,7 @@
                                     >
                                 </div>
                                 <div class="field">
-                                    <button class="button is-link ">
+                                    <button class="button is-link is-fullwidth">
                                         Iniciar sesión
                                     </button>
                                 </div>
