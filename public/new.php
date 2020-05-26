@@ -28,24 +28,38 @@
                             <div class="field is-grouped">
                                 <p class="control is-expanded">
                                     <label class="label">Nombre(s)</label>
-                                    <input type="text" name="nombres" id="nombres" class="input">
+                                    <input
+                                        type="text"
+                                        name="nombres"
+                                        id="nombres"
+                                        class="input"
+                                        required
+                                        maxlength="25"
+                                    >
                                 </p>
                                 <p class="control is-expanded">
                                     <label class="label">Apellido(s)</label>
-                                    <input type="text" name="apellidos" id="apellidos" class="input">
+                                    <input
+                                        type="text"
+                                        name="apellidos"
+                                        id="apellidos"
+                                        class="input"
+                                        required
+                                        maxlength="25"
+                                    >
                                 </p>
                             </div>
                             <!-- Fin: Campos nombres y apellidos -->
                             <!-- Inicio: Correo electrónico -->
                             <div class="field">
                                 <label class="label">Correo electrónico</label>
-                                <input type="email" name="correo" id="correo" class="input">
+                                <input type="email" name="correo" id="correo" class="input" required>
                             </div>
                             <!-- Fin: Correo electrónico -->
                             <!-- Inicio: Nombre de usuario -->
                             <div class="field">
                                 <label class="label">Nombre de usuario</label>
-                                <input type="text" name="nombre_usuario" id="nombre_usuario" class="input">
+                                <input type="text" name="nombre_usuario" id="nombre_usuario" class="input" required>
                                 <p class="help is-info">
                                     El nombre de usuario debe contener al menos 8 caracteres y solo puede
                                     tener letras, números y/o _
@@ -56,11 +70,11 @@
                             <div class="field is-grouped">
                                 <p class="control is-expanded">
                                     <label class="label">Contraseña</label>
-                                    <input type="password" name="contrasenia1" id="contrasenia1" class="input">
+                                    <input type="password" name="contrasenia1" id="contrasenia1" class="input" required>
                                 </p>
                                 <p class="control is-expanded">
                                     <label class="label">Reescribe la contraseña</label>
-                                    <input type="password" name="contrasenia2" id="contrasenia2" class="input">
+                                    <input type="password" name="contrasenia2" id="contrasenia2" class="input" required>
                                 </p>
                             </div>
                             <!-- Fin: Contraseñas -->
