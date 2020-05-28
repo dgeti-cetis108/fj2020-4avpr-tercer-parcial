@@ -52,6 +52,11 @@
                                         Iniciar sesión
                                     </button>
                                 </div>
+                                <div class="field">
+                                    <p class="has-text-centered">
+                                        <a href="new.php">Registrate</a> si no tienes una cuenta.
+                                    </p>
+                                </div>
                             </form>
                         </div>
                     </div>
